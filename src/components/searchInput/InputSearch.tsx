@@ -16,6 +16,7 @@ export const InputSearch = () => {
       value={title.trim()}
       onChange={onChange}
       placeholder='Search'
+
     />
   )
 }
