@@ -1,5 +1,5 @@
 import styles from './App.module.scss';
-import { InputSearch } from './components/searchInput/InputSearch';
+
 
 function App() {
 
@@ -17,8 +17,9 @@ function App() {
                         </ul>
                     </nav>
                 </div>
-                <InputSearch />
             </header>
+            <main className={styles.main}>
+            </main>
         </>
     )
 }
