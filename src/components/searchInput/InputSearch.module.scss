@@ -5,14 +5,14 @@
   padding: 10px 20px;
   width: 35vh;
   border-radius: 25px;
-  background-color: #e9e9e9;
+  background-color: var(--bgColor);
 }
 
 .input:hover {
-  background-color: #e3e1e1;
+  background-color: var(--bgHover);
 }
 
 .input:focus {
-  background-color: white;
+  background-color: var(--bgFocus);
   border: 1px solid blue
 }
