@@ -1,6 +1,9 @@
 import styles from './inputSearch.module.scss'
 import { ChangeEvent, useState } from "react"
 
+enum PlaceholderText {
+  SEATCH = 'Search'
+}
 
 export const InputSearch = () => {
   const [title, setTitle] = useState('')
@@ -15,7 +18,7 @@ export const InputSearch = () => {
       className={styles.input}
       value={title.trim()}
       onChange={onChange}
-      placeholder='Search'
+      placeholder={PlaceholderText.SEATCH}
 
     />
   )

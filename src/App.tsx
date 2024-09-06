@@ -6,8 +6,6 @@ import { Button } from './components/button/Button';
 
 function App() {
 
-    // TODO сознать роутинг 
-
     return (
         <>
             <header className={styles.header}>
