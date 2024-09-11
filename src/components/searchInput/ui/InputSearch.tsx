@@ -11,12 +11,14 @@ export const InputSearch = () => {
   }
 
   return (
-    <input
+    <div className={`${styles['wrapper-input']}`}>
+      <input
       className={styles.input}
       value={title.trim()}
       onChange={onChange}
       placeholder='Search'
-
     />
+    </div>
+    
   )
 }

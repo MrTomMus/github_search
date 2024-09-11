@@ -1,12 +1,10 @@
 import { Link, Route, Routes } from 'react-router-dom';
 import styles from './App.module.scss';
-import { InputSearch } from './components/searchInput/InputSearch';
-import { Button } from './components/button/button';
+import { Button } from './components/button/Button';
+import { InputSearch } from './components/searchInput';
 
 
 function App() {
-
-    // TODO сознать роутинг 
 
     return (
         <>
@@ -24,7 +22,7 @@ function App() {
             <main className={styles.main}>
                 <div className={`${styles.container}`}>
                     <Routes>
-                        <Route path='/'  element={<InputSearch/>}/>
+                        <Route path='/'  element={<InputSearch />}/>
                         <Route path='favorites' element={<Button/>}/>
                     </Routes>
                 </div>
