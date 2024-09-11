@@ -22,8 +22,8 @@ function App() {
             <main className={styles.main}>
                 <div className={`${styles.container}`}>
                     <Routes>
-                        <Route path='/'  element={<InputSearch />}/>
-                        <Route path='favorites' element={<Button/>}/>
+                        <Route path='/' element={<InputSearch />} />
+                        <Route path='favorites' element={<Button />} />
                     </Routes>
                 </div>
             </main>
