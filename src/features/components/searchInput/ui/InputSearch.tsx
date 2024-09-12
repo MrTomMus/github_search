@@ -14,14 +14,11 @@ export const InputSearch = () => {
   }
 
   return (
-    <div className={`${styles['wrapper-input']}`}>
-      <input  /* TODO Тут вызывать компонент input обычный */
-      className={styles.input}
-      value={title.trim()}
-      onChange={onChange}
-      placeholder={PlaceholderText.SEATCH}
+    <input  /* TODO Тут вызывать компонент input обычный */
+    className={styles.input}
+    value={title.trim()}
+    onChange={onChange}
+    placeholder={PlaceholderText.SEATCH}
     />
-    </div>
-    
   )
 }
