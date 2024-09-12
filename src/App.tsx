@@ -1,7 +1,7 @@
 import { Link, Route, Routes } from 'react-router-dom';
 import styles from './App.module.scss';
-import { Button } from './components/button/Button';
-import { InputSearch } from './components/searchInput';
+import { Button } from './shared/components/button/Button';
+import { InputSearch } from './features/components/searchInput';
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
             <main className={styles.main}>
                 <div className={`${styles.container}`}>
                     <Routes>
-                        <Route path='/' element={<InputSearch />} />
+                        {<Route path='/' element={<InputSearch />} /> /* TODO Нужно создать отдельный компонент Input, а в этом компоненте его использовать  */}
                         <Route path='favorites' element={<Button />} />
                     </Routes>
                 </div>
