@@ -17,6 +17,8 @@ const usersMock = [
   { id: 4, name: 'Emily Davis' },
 ];
 
+// TODO Реализовать запрос на получение пользователей
+
 export const InputSearch = () => {
   const [title, setTitle] = useState('')
   const [filteredUsers, setFilteredUsers] = useState<Array<UsersType>>([])
