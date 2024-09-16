@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+}
+
+.userList {
+  width: 100%;
+  border-radius: 10px;
+  background-color: var(--bgColor);
+  margin-top: 10px;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.userItem {
+  padding: 8px 8px 8px 20px;
+  cursor: pointer;
+}
+
+.userItem:hover {
+  text-decoration: underline;
+}
